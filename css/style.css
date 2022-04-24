@@ -1,0 +1,179 @@
+/*
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+*/
+
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgba(78,190,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,190,254,1)), color-stop(100%, rgba(55,143,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: linear-gradient(121deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4ebefe', endColorstr='#378fd9', GradientType=1);
+	padding-top: 62px;
+	padding-bottom: 72px;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 145px;
+	width: 560px;
+}
+
+.logo {
+  height: 38px;
+  width: 98px;
+}
+
+.title {
+	font-size: 36px;
+}
+
+.title span {
+	font-size: 58px;
+}
+
+.intro {
+	margin: 40px 0;
+	width: 380px;
+  font-size: 16px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+	background: #ffd429;
+	color: #2e2a1b;
+	display: block;
+	width: 222px;
+	padding: 19px 10px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #e8c124;
+}
+
+.firstscreen {
+	margin-top: 10px;
+}
+
+.learn {
+	padding-top: 100px;
+	padding-bottom: 83px;
+}
+
+.section-title {
+	font-size: 30px;
+  text-align: center;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+
+.skill {
+	width: 300px;
+	padding-top: 95px;
+  text-align: center;
+}
+
+.skill-title {
+	font-size: 19px;
+}
+
+.skill-text {
+	margin-top: 7px;
+}
+
+.skill_1 {
+	background: url('../img/icon-timemachine.png') no-repeat 50% 0%;
+}
+
+.skill_2 {
+	background: url('../img/icon-beach.png') no-repeat 50% 0%;
+}
+
+.skill_3 {
+	background: url('../img/icon-launch.png') no-repeat 50% 0%;
+}
+
+.mail {
+	background: #efecf4;
+	padding: 100px 0;
+}
+
+.form {
+  max-width: 343px;
+  margin: 55px auto 0;
+}
+
+.input {
+	width: 100%;
+	border: 1px solid #bbbbbb;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 3px;
+	height: 48px;
+	padding-left: 23px;
+  margin: 0 0 15px;
+}
+
+.btn-form {
+  border: 0;
+	width: 100%;
+	cursor: pointer;
+}
+
+.footer {
+	padding: 58px 0;
+	background: #164d7a;
+  text-align: center;
+}
+
+.credits {
+  font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 14px;
+	margin: 0;
+}
