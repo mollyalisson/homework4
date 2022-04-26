@@ -49,10 +49,10 @@ p {
 .wrapper {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .offer {
-	margin-top: 145px;
 	width: 560px;
 }
 
